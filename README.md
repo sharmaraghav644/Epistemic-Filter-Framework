@@ -42,7 +42,6 @@ To set up the Epistemic Filter Framework, follow these steps:
 3.  **Install dependencies:**
     The project relies on libraries such as `sentence-transformers`, `transformers`, `torch`, `numpy`, and `scikit-learn`.
     ```bash
-    pip install -r requirements.txt # Assuming a requirements.txt file exists
     # Or install individually:
     pip install torch transformers sentence-transformers numpy scikit-learn
     ```
