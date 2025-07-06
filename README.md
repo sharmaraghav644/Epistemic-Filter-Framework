@@ -42,7 +42,6 @@ To set up the Epistemic Filter Framework, follow these steps:
 3.  **Install dependencies:**
     The project relies on libraries such as `sentence-transformers`, `transformers`, `torch`, `numpy`, and `scikit-learn`.
     ```bash
-    # Or install individually:
     pip install torch transformers sentence-transformers numpy scikit-learn
     ```
     *(Note: The provided Jupyter Notebook uses `cardiffnlp/twitter-roberta-base-sentiment-latest` for sentiment analysis, which will be downloaded by the `transformers` library upon first use.)*
