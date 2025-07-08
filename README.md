@@ -119,7 +119,7 @@ The `Epistemic_Filtering_Code_POC_final(1).ipynb` notebook includes a comprehens
 
 ### Detailed Analysis by Category
 
-The framework was evaluated across various categories of statements, including physics, biology, mathematics, logical reasoning, and nonsensical statements.
+The framework was evaluated across various categories of statements, including scientific facts (physics, biology), mathematical statements, logical reasoning, and nonsensical statements.
 
 | Dataset                 | Accuracy | Precision | Recall | F1-Score | Statements |
 | :---------------------- | :------- | :-------- | :------- | :------- | :--------- |
