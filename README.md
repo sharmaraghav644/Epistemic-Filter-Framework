@@ -121,13 +121,12 @@ The `Epistemic_Filtering_Code_POC_final(1).ipynb` notebook includes a comprehens
 
 The framework was evaluated across various categories of statements, including physics, biology, mathematics, logical reasoning, and nonsensical statements.
 
-| Category (True Statements) | Accuracy | Precision | Recall | F1 Score | Mean Score | Score Range |
-| :------------------------- | :------- | :-------- | :------- | :------- | :--------- | :----------------- |
-| PHYSICS_TRUE               | 1.000 | 1.000 | 1.000 | 1.000 | 0.709 | 0.622 - 0.802 |
-| BIOLOGY_TRUE               | 1.000 | 1.000 | 1.000 | 1.000 | 0.759 | 0.692 - 0.805 |
-| MATH_TRUE                  | 1.000 | 1.000 | 1.000 | 1.000 | 0.730 | 0.672 - 0.825 |
-| LOGIC_TRUE                 | 1.000 | 1.000 | 1.000 | 1.000 | 0.748 | 0.693 - 0.796 |
-| NONSENSICAL_FALSE          | 0.000 | 0.000 | 0.000 | 0.000 | 0.297 | 0.098 - 0.505 |
+| Dataset                 | Accuracy | Precision | Recall | F1-Score | Statements |
+| :---------------------- | :------- | :-------- | :------- | :------- | :--------- |
+| Scientific Facts        | 0.615    | 0.583     | 1.000    | 0.737    | 13         |
+| Mathematical Statements | 0.583    | 0.545     | 1.000    | 0.706    | 12         |
+| Logical Reasoning       | 0.625    | 0.571     | 1.000    | 0.727    | 8          |
+| Nonsensical Statements  | 0.667    | 0.000     | 0.000    | 0.000    | 6          |
 
 ### Component Contribution Analysis
 
